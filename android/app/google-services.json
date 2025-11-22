@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851297129667",
+    "project_id": "invoice-seven-native",
+    "storage_bucket": "invoice-seven-native.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851297129667:android:a9b44e56c7603cec1c7e76",
+        "android_client_info": {
+          "package_name": "com.example.invoice_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIG27ngVcTp1OKjz4LOhWFaPlETRrF3Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

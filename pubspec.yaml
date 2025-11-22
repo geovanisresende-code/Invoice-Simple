@@ -1,0 +1,40 @@
+name: invoice_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_pdfviewer: ^31.2.3
+  cupertino_icons: ^1.0.8
+
+  dropdown_button2: ^2.3.9
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.0.2
+  firebase_storage: ^13.0.2
+  image_picker: ^0.8.7+5  
+  file_picker: ^8.1.6       
+
+  google_sign_in: ^7.2.0
+
+  fluttertoast: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/templates/classic.pdf
+    - assets/templates/compact.pdf
+    - assets/templates/clean.pdf
+    - assets/templates/sharp.pdf
